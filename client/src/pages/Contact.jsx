@@ -86,7 +86,11 @@ const Contact = () => {
               </p>
             </div>
 
-            <ContactMap address={APP_CONFIG.contact.address} />
+            <ContactMap
+              embedUrl={APP_CONFIG.contact.map.embedUrl}
+              mapUrl={APP_CONFIG.contact.map.mapUrl}
+              address={APP_CONFIG.contact.address}
+            />
           </Container>
         </section>
       </main>

@@ -26,7 +26,14 @@ export const APP_CONFIG = {
   contact: {
     email: "info@example.com",
     phone: "+91 00000 00000",
-    address: "India",
+    address: "Cybrical Tech LLP",
+
+    map: {
+      embedUrl:
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2412.4376024593103!2d77.37961087350551!3d28.618764484709384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6562044ef606b63b%3A0x892972887b79d5ea!2sCybrical%20Tech%20LLP!5e1!3m2!1sen!2sin!4v1788452891740!5m2!1sen!2sin",
+      mapUrl:
+        "https://www.google.com/maps/search/?api=1&query=Cybrical+Tech+LLP",
+    },
   },
 
   features: {
